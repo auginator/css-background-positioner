@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e2f22e40ce75b537168273a9f271227a",
+    "revision": "047b02af8046ed98c75bf4690b0cada2",
     "url": "/css-background-positioner/index.html"
   },
   {
