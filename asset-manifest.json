@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/css-background-positioner/static/css/main.d1b05096.chunk.css",
+    "main.js": "/css-background-positioner/static/js/main.0b36266b.chunk.js",
+    "main.js.map": "/css-background-positioner/static/js/main.0b36266b.chunk.js.map",
+    "runtime-main.js": "/css-background-positioner/static/js/runtime-main.c4d551bf.js",
+    "runtime-main.js.map": "/css-background-positioner/static/js/runtime-main.c4d551bf.js.map",
+    "static/js/2.2fb09c1b.chunk.js": "/css-background-positioner/static/js/2.2fb09c1b.chunk.js",
+    "static/js/2.2fb09c1b.chunk.js.map": "/css-background-positioner/static/js/2.2fb09c1b.chunk.js.map",
+    "index.html": "/css-background-positioner/index.html",
+    "precache-manifest.618eeb4750e437f3bbc8aec3fdca8d3e.js": "/css-background-positioner/precache-manifest.618eeb4750e437f3bbc8aec3fdca8d3e.js",
+    "service-worker.js": "/css-background-positioner/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/css-background-positioner/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.2fb09c1b.chunk.js.LICENSE.txt": "/css-background-positioner/static/js/2.2fb09c1b.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/css-background-positioner/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c4d551bf.js",
+    "static/js/2.2fb09c1b.chunk.js",
+    "static/css/main.d1b05096.chunk.css",
+    "static/js/main.0b36266b.chunk.js"
+  ]
+}
