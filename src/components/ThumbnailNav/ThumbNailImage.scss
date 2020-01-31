@@ -1,0 +1,11 @@
+.thumb-nav-image {
+  position: relative;
+
+  &__focus {
+    position: absolute;
+    border: 1px solid red;
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+  }
+}
