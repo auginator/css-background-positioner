@@ -1,9 +1,17 @@
+# CSS Background Positioner
+A tiny web tool the play around with the `background-position` of a background image set to `background-size: cover`. Originally I made this tool on Codepen, so that designers I worked with could experiment with the background position on any image they wanted as part of the design process.
+
+I just rewrote it in React and gave it a new home on Github.
+
+[Check it out here!](https://auginator.github.io/css-background-positioner/)
+
+## Created with Create React App
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
 In the project directory, you can run:
-
+<!--
 ### `yarn start`
 
 Runs the app in the development mode.<br />
@@ -25,22 +33,12 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.<br />
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information. -->
 
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
+<!--
 To learn React, check out the [React documentation](https://reactjs.org/).
 
 ### Code Splitting
@@ -65,4 +63,4 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 ### `yarn build` fails to minify
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify -->
