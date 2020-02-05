@@ -44,11 +44,14 @@ export default class ThumbnailNav extends Component {
 
   render() {
     return (
-      <div className="thumbnail">
-        <h4>CSS Background Positioner</h4>
-        <p><strong>Click on the key image feature to get the background-position needed.</strong></p>
-
-
+      <div className="thumbnail-nav">
+        <h1 className="title">CSS Background Focal Point</h1>
+        <p>Click on the image to set a focal point.</p>
+        {/*
+          TODO: ADD CREDIT
+          Edu Lauton on Unsplash.com
+          @edulauton
+        */}
         <ThumbNailImage
           src={this.props.backgroundImage}
           alt="Image Preview"
@@ -58,21 +61,17 @@ export default class ThumbnailNav extends Component {
             }
           }
         />
-          {/* {
-            dimensions => {
-            return (
-              <img src={this.props.backgroundImage} alt="" onClick={ event => {
-                this.handlePositionChange(event, dimensions)
-              }} />
-            )
-          }
-        } */}
 
-      <p className="info">background-position:<br />{this.props.backgroundPosition}</p>
-        <hr />
-        <p>Use your own Image<br />(paste in URL)</p>
+        <p>Paste in your own image URL:</p>
         <input type="text" onChange={this.handleInputChange} />
         { this.state.message && <div className="alert">{this.state.message}</div> }
+
+        <code className="code-block">
+          <div className="code-block__content">
+            background-position: {this.props.backgroundPosition || 'center center'}
+          </div>
+        </code>
+
       </div>
     )
   }

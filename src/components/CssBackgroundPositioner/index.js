@@ -18,14 +18,12 @@ export default class CssBackgroundPositioner extends Component {
   }
 
   handleImageChange(newImageUrl) {
-    console.log(`handleImageChange(newImageUrl)\n${ JSON.stringify(newImageUrl) }`)
     this.setState({
       backgroundImage: newImageUrl
     })
   }
 
   handlePositionChange(newPosition) {
-    console.log(`handlePositionChange(newPosition)\n${ newPosition }`)
     this.setState({
       backgroundPosition: newPosition
     })
